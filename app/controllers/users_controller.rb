@@ -49,4 +49,6 @@ class UsersController < ApplicationController
       redirect_to ("/users/"+updated_user.username.to_s)
 
     end
+
+
 end
